@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(23, 23, 28);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+h1{
+    color:white ;
+    border-bottom: 2px solid rgb(254, 250, 250);
+    margin-bottom: 30px;
+}
+.main {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 4px 8px 10px rgb(105, 104, 104);
+    padding: 10px;
+    background-color: rgb(23, 23, 30);
+}
+
+.input_field {
+    width: 85%;
+    height: 75px;
+    margin: 15px auto;
+    text-align: right;
+    
+
+}
+#input{
+
+    width: 90%;
+    height: 100%;
+    padding: 0 10px;
+    background-color: rgb(31, 31, 36);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    color: white;
+    font-size: 2rem;
+    text-align: right;
+   
+}
+
+.numbers {
+    display: grid;
+    width: 85%;
+    margin: 20px auto;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 70px);
+
+}
+
+.normal {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background-color: #000000;
+
+    box-shadow: 2px 4px 6px rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 1.2rem;
+
+
+}
+.clicked{
+    box-shadow: 4px 4px 4px rgb(0, 0, 0) inset;
+    background-color: rgb(31, 31, 36);
+
+}
+
+.special{
+    color: #17B169;
+    font-weight: bold;
+    
+}
+.special_equal{
+    background-color: #FF5F1F;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
